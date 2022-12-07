@@ -1,19 +1,21 @@
 from django.test import TestCase
 
-from core.utils import generate_short_link
+from core.utils import encode_link, decode_link
 
 
 class TestService(TestCase):
 
-    def test_generate_short_link(self):
+    def test_encode_link(self):
         pk = 42
-        host = 'localhost:8000'
+        expected = encode_link(pk)
+        result = 'NDI='
+        assert expected == result
 
-        result = generate_short_link(pk)
-        expected = 'http://' + host + '/NDI='
-
-        self.assertIsNotNone(result)
-        self.assertEqual(result, expected)
+    def test_decode_link(self):
+        link = 'NDI='
+        expected = decode_link(link)
+        result = 42
+        assert expected == result
 
     def test_link_create(self):
         pass
