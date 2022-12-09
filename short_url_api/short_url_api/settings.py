@@ -23,7 +23,15 @@ env = environ.Env(
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Reading .env file
-environ.Env.read_env(os.path.join(BASE_DIR.parent, '.env'))
+# WARNING: Use .dev.env only in development
+
+dev_env_file = os.path.join(BASE_DIR.parent, '.dev.env')
+env_file = os.path.join(BASE_DIR.parent, '.env')
+
+if os.path.isfile(dev_env_file):
+    environ.Env.read_env(dev_env_file)
+else:
+    environ.Env.read_env(env_file)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
