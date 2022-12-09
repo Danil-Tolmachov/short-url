@@ -1,23 +1,16 @@
-import binascii
 import re
-from base64 import b64decode, b64encode
+
+from django.utils.encoding import force_bytes
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 
 
 def encode_link(pk: int) -> str:
-    cyphered = b64encode(str(pk).encode())
-    return cyphered.decode()
+    cyphered = urlsafe_base64_encode(force_bytes(str(pk)))
+    return cyphered
 
 
 def decode_link(link: str) -> int:
-
-    try:
-        decoded = b64decode(link.encode()).decode()
-    except binascii.Error:
-        return -1
-
-    if not decoded.isdigit():
-        return -1
-
+    decoded = urlsafe_base64_decode(link)
     return int(decoded)
 
 
