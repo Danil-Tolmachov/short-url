@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from core.views import create_link
+from core.views import create_link, get_source
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('create-link/', create_link, name='create_link')
+    path('create-link/', create_link, name='create_link'),
+    path('get-link/', get_source, name='get_link'),
 ]

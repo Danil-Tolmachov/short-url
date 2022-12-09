@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46a73f2b-789c-4454-9bf8-6919a0c33481" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/short_url_api/core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/short_url_api/core/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/utils.py" afterDir="false" />
+    <list default="true" id="46a73f2b-789c-4454-9bf8-6919a0c33481" name="Changes" comment="set_link realisation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/short_url_api/core/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/short_url_api/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/short_url_api/short_url_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/short_url_api/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,27 @@
       <recent name="C:\Users\danil\Desktop\ShortUrl\short_url_api" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Python tests for tests.TestService" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ShortUrl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/short_url_api/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.TestService&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.TestService" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +76,42 @@
       <option name="presentableId" value="Default" />
       <updated>1669927591561</updated>
     </task>
+    <task id="LOCAL-00001" summary="utils realisation">
+      <created>1670416777178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416777178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added tests for utils">
+      <created>1670525995432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670525995432</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added link model">
+      <created>1670526007658</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670526007658</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated decode_link">
+      <created>1670526040215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670526040215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="set_link realisation">
+      <created>1670530840239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530840239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -69,5 +128,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="utils realisation" />
+    <MESSAGE value="added tests for utils" />
+    <MESSAGE value="added link model" />
+    <MESSAGE value="updated decode_link" />
+    <MESSAGE value="set_link realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="set_link realisation" />
   </component>
 </project>

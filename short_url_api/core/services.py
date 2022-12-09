@@ -1,5 +1,5 @@
 from core.models import Link
-from core.utils import encode_link, validate_link
+from core.utils import encode_link, validate_link, decode_link
 
 
 # receives source link
@@ -19,5 +19,7 @@ def set_link(request, link: str) -> str:
 
 # receives cyphered(base64) pk
 # returns redirect link
-def get_link(link: str) -> str:
-    pass
+def get_link(encoded_pk: str) -> str:
+    decoded_pk = decode_link(encoded_pk)
+    source = Link.objects.get(pk=decoded_pk)
+    return source
