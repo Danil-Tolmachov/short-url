@@ -27,6 +27,7 @@ services:
       dockerfile: short_url_api/Dockerfile
     command: >
       sh -c "cd short_url_api &&
+             python manage.py makemigrations &&
              python manage.py migrate &&
              python manage.py runserver 0.0.0.0:8000"
     ports:
