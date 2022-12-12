@@ -6,7 +6,7 @@ services:
     container_name: db
     restart: always
     ports:
-      - '32700:5432'
+      - '5432:5432'
     env_file: .env
     volumes:
       - ./data:/var/lib/postgres/data
@@ -20,3 +20,17 @@ services:
       PGADMIN_DEFAULT_PASSWORD: root
     ports:
       - "5050:80"
+
+  api:
+    build:
+      context: .
+      dockerfile: short_url_api/Dockerfile
+    command: >
+      sh -c "cd short_url_api &&
+             python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - .:/app

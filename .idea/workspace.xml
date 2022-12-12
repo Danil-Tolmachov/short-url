@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46a73f2b-789c-4454-9bf8-6919a0c33481" name="Changes" comment="set_link realisation">
+    <list default="true" id="46a73f2b-789c-4454-9bf8-6919a0c33481" name="Changes" comment="added env">
+      <change afterPath="$PROJECT_DIR$/short_url_api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/short_url_api/core/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/short_url_api/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/short_url_api/short_url_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/short_url_api/short_url_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\Desktop\proj\ShortUrl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\Desktop\proj\ShortUrl\short_url_api" />
       <recent name="C:\Users\danil\Desktop\proj\ShortUrl" />
       <recent name="C:\Users\danil\Desktop\ShortUrl" />
       <recent name="C:\Users\danil\Desktop\ShortUrl\short_url_api" />
@@ -111,7 +115,42 @@
       <option name="project" value="LOCAL" />
       <updated>1670530840239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="get_link realisation">
+      <created>1670573072784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670573072784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixing decode, encode">
+      <created>1670597292052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670597292052</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dev_env implementation">
+      <created>1670599032387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670599032387</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added tests for services">
+      <created>1670599136422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670599136422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added env">
+      <created>1670599154240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670599154240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -135,6 +174,11 @@
     <MESSAGE value="added link model" />
     <MESSAGE value="updated decode_link" />
     <MESSAGE value="set_link realisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="set_link realisation" />
+    <MESSAGE value="get_link realisation" />
+    <MESSAGE value="fixing decode, encode" />
+    <MESSAGE value="dev_env implementation" />
+    <MESSAGE value="added tests for services" />
+    <MESSAGE value="added env" />
+    <option name="LAST_COMMIT_MESSAGE" value="added env" />
   </component>
 </project>
