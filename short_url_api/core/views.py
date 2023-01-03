@@ -22,7 +22,7 @@ def create_link(request) -> Response:
     except ValueError:
         return Response({'error': 'Wrong link format'}, status=400)
 
-    return Response({'link': short_link})
+    return Response({'short_link': short_link})
 
 
 @api_view(http_method_names=(['get']))
