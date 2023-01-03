@@ -92,7 +92,7 @@ POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 POSTGRES_DB=short_db
 ```
-*Use 'db' as the host in DATABASE_URL to estabilish a connection between the database and the api containers. Also you can change database container name in the docker-compose.
+Note: Use 'db' as the host in DATABASE_URL to estabilish a connection between the database and the api containers. Also you can change database container name in the docker-compose.
 
 **5. Build and run docker-compose file**
 ```sh
