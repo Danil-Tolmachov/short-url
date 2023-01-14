@@ -40,4 +40,4 @@ def get_source(request, link_pk: str) -> Response:
     except ValueError:
         return Response({'error': 'Wrong link format'}, status=400)
 
-    return Response({'source': source_link.source_link})
+    return Response({'source': source_link})

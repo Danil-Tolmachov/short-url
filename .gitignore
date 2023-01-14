@@ -1,2 +1,6 @@
 /.dev.env
 /docker-compose.dev.yml
+/venv
+/.idea
+/sqlite
+/data/

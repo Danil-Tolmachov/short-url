@@ -19,7 +19,6 @@ from django.urls import path
 from core.views import create_link, get_source
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', create_link, name='create_link'),
     path('<slug:link_pk>/', get_source, name='get_link'),
 ]
