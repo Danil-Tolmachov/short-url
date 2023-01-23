@@ -7,7 +7,9 @@ Link shortening REST service
 - Python 3.10
 - Django
 - Rest framework
-- PostgreSQL
+- PostgreSQL (Redis for 'redis' branch)
+
+*Redis branch in development*
 
 # Endpoints
 
