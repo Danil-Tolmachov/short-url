@@ -29,7 +29,7 @@ URL: **/{encoded_id}**
 
 **1. POST http://<area>0.0.0.0:8000/**
 
-Request:
+Body:
 ```
 link: "https://github.com/Danil-Tolmachov/ShortUrl/"
 ```
